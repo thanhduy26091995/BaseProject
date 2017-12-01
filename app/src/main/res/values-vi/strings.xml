@@ -4,6 +4,7 @@
     <!--Base-->
     <string name="loading">Đang tải...</string>
     <string name="error_internet">Vui lòng kiểm tra kết nối mạng!</string>
+    <string name="language_default">en</string>
     <!--End base-->
 
     <!-- Dialog message start-->
@@ -13,5 +14,9 @@
     <string name="dialog_button_confirm_yes">Yes</string>
     <string name="dialog_button_close">Close</string>
     <!-- Dialog message end-->
+
+    <!--error code from server-->
+    <string name="error_401"></string>
+    <string name="error_404"></string>
 </resources>
 

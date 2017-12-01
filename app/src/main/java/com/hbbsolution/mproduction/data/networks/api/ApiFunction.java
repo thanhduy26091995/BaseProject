@@ -5,4 +5,5 @@ package com.hbbsolution.mproduction.data.networks.api;
  */
 
 public enum ApiFunction {
+    GET_HOME
 }

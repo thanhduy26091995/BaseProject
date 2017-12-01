@@ -6,7 +6,7 @@ import android.app.Application;
  * Created by buivu on 20/09/2017.
  */
 
-public class MProductionApplication extends Application {
+public class BaseApplication extends Application {
     private static Application instance;
 
     public static Application getInstance()
