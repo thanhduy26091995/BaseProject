@@ -8,10 +8,10 @@ import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
-import com.daniribalbert.customfontlib.views.CustomFontButton;
-import com.daniribalbert.customfontlib.views.CustomFontTextView;
 import com.hbbsolution.mproduction.R;
 import com.hbbsolution.mproduction.data.models.Item;
 
@@ -162,8 +162,8 @@ public class MessageDialogHelper {
         mDialog = dialog;
         //Get view
         View viewDialog = (View) dialog.findViewById(R.id.layout_dialog);
-        CustomFontTextView textViewContent = (CustomFontTextView) view.findViewById(R.id.textview_content);
-        CustomFontTextView textviewTitle = (CustomFontTextView) view.findViewById(R.id.textview_title);
+        TextView textViewContent = (TextView) view.findViewById(R.id.textview_content);
+        TextView textviewTitle = (TextView) view.findViewById(R.id.textview_title);
         AppCompatImageView imageViewMark = (AppCompatImageView) view.findViewById(R.id.imageview_mark);
         //Set value for view
         imageViewMark.setBackground(context.getResources().getDrawable(R.drawable.ic_dialog_typeinformation));
@@ -171,7 +171,7 @@ public class MessageDialogHelper {
 
         textViewContent.setText(contentDialog);
         textviewTitle.setText(titleDialog);
-        CustomFontButton buttonAccept = (CustomFontButton) view.findViewById(R.id.button_accept);
+        Button buttonAccept = (Button) view.findViewById(R.id.button_accept);
         //Set event for view
         buttonAccept.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -211,8 +211,8 @@ public class MessageDialogHelper {
         mDialog = dialog;
         //Get view
         View viewDialog = (View) dialog.findViewById(R.id.layout_dialog);
-        CustomFontTextView textViewContent = (CustomFontTextView) view.findViewById(R.id.textview_content);
-        CustomFontTextView textviewTitle = (CustomFontTextView) view.findViewById(R.id.textview_title);
+        TextView textViewContent = (TextView) view.findViewById(R.id.textview_content);
+        TextView textviewTitle = (TextView) view.findViewById(R.id.textview_title);
         AppCompatImageView imageViewMark = (AppCompatImageView) view.findViewById(R.id.imageview_mark);
         //Set value for view
         imageViewMark.setBackground(context.getResources().getDrawable(R.drawable.ic_dialog_typeerror));
@@ -220,7 +220,7 @@ public class MessageDialogHelper {
 
         textViewContent.setText(contentDialog);
         textviewTitle.setText(titleDialog);
-        CustomFontButton buttonAccept = (CustomFontButton) view.findViewById(R.id.button_accept);
+        Button buttonAccept = (Button) view.findViewById(R.id.button_accept);
         //Set event for view
         buttonAccept.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -260,8 +260,8 @@ public class MessageDialogHelper {
         mDialog = dialog;
         //Get view
         View viewDialog = (View) dialog.findViewById(R.id.layout_dialog);
-        CustomFontTextView textViewContent = (CustomFontTextView) view.findViewById(R.id.textview_content);
-        CustomFontTextView textviewTitle = (CustomFontTextView) view.findViewById(R.id.textview_title);
+        TextView textViewContent = (TextView) view.findViewById(R.id.textview_content);
+        TextView textviewTitle = (TextView) view.findViewById(R.id.textview_title);
         AppCompatImageView imageViewMark = (AppCompatImageView) view.findViewById(R.id.imageview_mark);
         //Set value for view
         imageViewMark.setBackground(context.getResources().getDrawable(R.drawable.ic_dialog_typesuccess));
@@ -269,7 +269,7 @@ public class MessageDialogHelper {
 
         textViewContent.setText(contentDialog);
         textviewTitle.setText(titleDialog);
-        CustomFontButton buttonAccept = (CustomFontButton) view.findViewById(R.id.button_accept);
+        Button buttonAccept = (Button) view.findViewById(R.id.button_accept);
         //Set event for view
         buttonAccept.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -307,10 +307,10 @@ public class MessageDialogHelper {
         mDialog = dialog;
         //Get view
         View viewDialog = (View) dialog.findViewById(R.id.layout_dialog);
-        CustomFontTextView textViewContent = (CustomFontTextView) dialog.findViewById(R.id.textview_content);
-        CustomFontTextView textViewTitle = (CustomFontTextView) dialog.findViewById(R.id.textView_titles);
-        CustomFontButton buttonAccept = (CustomFontButton) dialog.findViewById(R.id.button_accept);
-        CustomFontButton buttonDeince = (CustomFontButton) dialog.findViewById(R.id.button_denice);
+        TextView textViewContent = (TextView) dialog.findViewById(R.id.textview_content);
+        TextView textViewTitle = (TextView) dialog.findViewById(R.id.textView_titles);
+        Button buttonAccept = (Button) dialog.findViewById(R.id.button_accept);
+        Button buttonDeince = (Button) dialog.findViewById(R.id.button_denice);
         //set value for view
         textViewContent.setText(contentDialog);
         textViewTitle.setText(titleDialog);
@@ -360,7 +360,7 @@ public class MessageDialogHelper {
 
         mDialog = dialog;
         //Get view
-        CustomFontTextView textViewContent = (CustomFontTextView) dialog.findViewById(R.id.textview_content);
+        TextView textViewContent = (TextView) dialog.findViewById(R.id.textview_content);
 
         textViewContent.setText(contentDialog);
     }

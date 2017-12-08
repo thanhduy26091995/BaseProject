@@ -33,7 +33,7 @@
                 android:layout_gravity="center"
                 android:background="@drawable/ic_dialog_typeinformation" />
 
-            <com.daniribalbert.customfontlib.views.CustomFontTextView
+            <TextView
                 android:id="@+id/textview_title"
                 android:layout_marginTop="@dimen/space_40"
                 android:layout_width="wrap_content"
@@ -43,7 +43,7 @@
                 android:text="@string/dialog_title"
                 android:textColor="@color/blue_500"
                 android:textSize="@dimen/font_48"
-                app:font="Roboto_Regular" />
+                />
 
 
         </LinearLayout>
@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.daniribalbert.customfontlib.views.CustomFontTextView
+            <TextView
                 android:id="@+id/textview_content"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -65,9 +65,9 @@
                 android:textSize="@dimen/font_42"
                 android:layout_marginRight="@dimen/space_20"
                 android:layout_marginLeft="@dimen/space_20"
-                app:font="Roboto_Light" />
+               />
 
-            <com.daniribalbert.customfontlib.views.CustomFontButton
+            <Button
                 android:id="@+id/button_accept"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -77,7 +77,7 @@
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textSize="@dimen/font_48"
-                app:font="Roboto_Regular" />
+                 />
         </LinearLayout>
 
     </LinearLayout>

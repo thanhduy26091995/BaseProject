@@ -12,12 +12,12 @@
         android:id="@+id/layout_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/dialog_box"
         android:layout_marginLeft="@dimen/space_150"
         android:layout_marginRight="@dimen/space_150"
+        android:background="@drawable/dialog_box"
         android:gravity="center"
-        android:paddingTop="@dimen/space_40"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingTop="@dimen/space_40">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -34,17 +34,16 @@
                 android:layout_gravity="center"
                 android:background="@drawable/ic_dialog_typeconfirm" />
 
-            <com.daniribalbert.customfontlib.views.CustomFontTextView
+            <TextView
                 android:id="@+id/textView_titles"
-                android:layout_marginTop="@dimen/space_40"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_40"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="@string/dialog_title"
                 android:textColor="@color/blue_500"
-                android:textSize="@dimen/font_48"
-                app:font="Roboto_Regular" />
+                android:textSize="@dimen/font_48" />
 
 
         </LinearLayout>
@@ -54,47 +53,46 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.daniribalbert.customfontlib.views.CustomFontTextView
+            <TextView
                 android:id="@+id/textview_content"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/space_20"
+                android:layout_marginRight="@dimen/space_20"
+                android:layout_weight="1"
+                android:gravity="center"
                 android:minLines="3"
                 android:textColor="@color/black"
-                android:gravity="center"
-                android:layout_marginRight="@dimen/space_20"
-                android:layout_marginLeft="@dimen/space_20"
-                android:textSize="@dimen/font_42"
-                app:font="Roboto_Light" />
+                android:textSize="@dimen/font_42" />
 
             <LinearLayout
-                android:layout_marginTop="@dimen/space_50"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_50"
                 android:orientation="horizontal">
-                <com.daniribalbert.customfontlib.views.CustomFontButton
+
+                <Button
                     android:id="@+id/button_denice"
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:background="@drawable/dialog_box_button_first"
                     android:text="@string/dialog_button_confirm_no"
                     android:textAllCaps="false"
                     android:textColor="@color/blue_500"
-                    android:textSize="@dimen/font_48"
-                    app:font="Roboto_Regular" />
-                <com.daniribalbert.customfontlib.views.CustomFontButton
+                    android:textSize="@dimen/font_48" />
+
+                <Button
                     android:id="@+id/button_accept"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:background="@drawable/dialog_box_button_second"
-                    android:textAllCaps="false"
                     android:text="@string/dialog_button_confirm_yes"
+                    android:textAllCaps="false"
                     android:textColor="@color/white"
-                    android:textSize="@dimen/font_48"
-                    app:font="Roboto_Regular" />
+                    android:textSize="@dimen/font_48" />
             </LinearLayout>
 
         </LinearLayout>

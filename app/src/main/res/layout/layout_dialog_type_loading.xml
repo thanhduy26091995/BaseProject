@@ -24,7 +24,7 @@
             android:layout_below="@+id/button_login"
             android:layout_centerVertical="true" />
 
-        <com.daniribalbert.customfontlib.views.CustomFontTextView
+        <TextView
             android:id="@+id/textview_content"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -35,7 +35,7 @@
             android:text="@string/dialog_title"
             android:textColor="@color/grey_800"
             android:textSize="@dimen/font_48"
-            app:font="Roboto_Regular" />
+             />
     </RelativeLayout>
 
 
