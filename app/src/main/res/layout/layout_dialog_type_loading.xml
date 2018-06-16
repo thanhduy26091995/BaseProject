@@ -9,13 +9,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_marginLeft="@dimen/space_150"
-        android:layout_marginRight="@dimen/space_150"
+        android:layout_marginLeft="@dimen/_37sdp"
+        android:layout_marginRight="@dimen/_37sdp"
         android:background="@drawable/dialog_box"
-        android:paddingRight="@dimen/space_40"
-        android:paddingLeft="@dimen/space_40"
-        android:paddingBottom="@dimen/space_80"
-        android:paddingTop="@dimen/space_80">
+        android:paddingRight="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_20sdp"
+        android:paddingTop="@dimen/_20sdp">
 
         <ProgressBar
             android:id="@+id/progress"
@@ -30,11 +30,11 @@
             android:layout_height="wrap_content"
             android:layout_alignTop="@+id/progress"
             android:layout_centerInParent="true"
-            android:layout_marginLeft="@dimen/space_150"
+            android:layout_marginLeft="@dimen/_37sdp"
             android:layout_toEndOf="@+id/progress"
             android:text="@string/dialog_title"
             android:textColor="@color/grey_800"
-            android:textSize="@dimen/font_48"
+            android:textSize="@dimen/_12sdp"
              />
     </RelativeLayout>
 
